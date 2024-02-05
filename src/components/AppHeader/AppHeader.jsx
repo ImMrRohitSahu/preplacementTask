@@ -31,7 +31,7 @@ const AppHeader = () => {
                 <div>
                   {isAuth ? (
                     <div className="d-flex">
-                      <h6 className="text-light mt-2 me-3">{userName}</h6>
+                      <h6 className="text-light mt-2 me-3 mb-0">{userName}</h6>
                       <Button variant="outline-danger" onClick={logoutHandler}>
                         Logout
                       </Button>{" "}
