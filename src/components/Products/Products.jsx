@@ -6,7 +6,7 @@ const Products = () => {
   const { products } = useContext(ApiContext);
 
   return (
-    <Container className="mt-4">
+    <Container className="mt-4 mx-0">
       <Row className="d-flex justify-content-evenly">
         {products.map((product, i) => {
           return (
