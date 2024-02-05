@@ -1,0 +1,65 @@
+body{
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: rgb(46, 46, 46);
+}
+
+.input-group {
+  gap: 10px;
+}
+input {
+  border: 1px solid rgb(215, 140, 255);
+  border-radius: 5px;
+  outline: none;
+  max-width: 300px;
+  width: 22vw;
+  min-width: 200px;
+  padding: 3px 15px;
+  box-shadow: 0px 1px 4px rgba(9, 9, 9, 0.136);
+  font-size: 14px;
+  transition: all ease 250ms;
+}
+input:focus {
+  padding: 8px 15px;
+}
+
+.loginbtn {
+  width: 180px;
+}
+
+.product-card {
+  max-width: 280px;
+  min-width: 180px;
+  height: 220px;
+  background-color: rgb(255, 250, 235);
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.412);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease 250ms;
+}
+.product-card:hover {
+  scale: 1.05;
+  cursor: pointer;
+  background-color: rgb(205, 255, 152);
+}
+img {
+  width: 100% !important;
+  height: 130px;
+  mix-blend-mode: darken;
+}
+.title {
+  font-size: 10px !important;
+}
+.rate {
+  font-size: 12px;
+}
+.dis-price {
+  font-size: 10px;
+  margin-left: 5px;
+}
