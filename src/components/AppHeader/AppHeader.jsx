@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Button, Col, Container, Navbar, Row } from "react-bootstrap";
+import { Button, Container, Navbar } from "react-bootstrap";
 import SignUpModal from "../SignUpModal/SignUpModal";
 import { AuthContext } from "../../contexts/AuthContext";
 import Headroom from "react-headroom";

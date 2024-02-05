@@ -19,13 +19,13 @@ input {
   max-width: 300px;
   width: 22vw;
   min-width: 200px;
-  padding: 3px 15px;
+  padding: 5px 15px;
   box-shadow: 0px 1px 4px rgba(9, 9, 9, 0.136);
   font-size: 14px;
   transition: all ease 250ms;
 }
 input:focus {
-  padding: 8px 15px;
+  padding: 11px 15px;
 }
 
 .loginbtn {
