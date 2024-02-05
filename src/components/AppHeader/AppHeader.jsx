@@ -20,14 +20,12 @@ const AppHeader = () => {
   };
   return (
     <>
-      <Container fluid>
-          <Headroom>
-        <Row>
-            <Col xs={12} className="p-0">
+      <Container fluid className="m-0 p-0">
+          <Headroom className="w-100">
               <Navbar
                 bg="dark"
                 variant="dark"
-                className="d-flex justify-content-between px-md-3 px-1"
+                className="d-flex justify-content-between align-items-center px-1 px-md-2"
               >
                 <Navbar.Brand href="#home">Pre-Placement</Navbar.Brand>
                 <div>
@@ -53,8 +51,6 @@ const AppHeader = () => {
                   )}
                 </div>
               </Navbar>
-            </Col>
-        </Row>
           </Headroom>
       </Container>
       <SignUpModal
