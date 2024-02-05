@@ -27,7 +27,7 @@ const AppHeader = () => {
               <Navbar
                 bg="dark"
                 variant="dark"
-                className="d-flex justify-content-between px-3"
+                className="d-flex justify-content-between"
               >
                 <Navbar.Brand href="#home">Pre-Placement</Navbar.Brand>
                 <div>
