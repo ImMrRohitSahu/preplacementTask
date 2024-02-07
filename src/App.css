@@ -70,8 +70,7 @@ img {
   font-size: 11px;
 }
 .cart-btn{
-  width: 25px;
-  height: 25px;
+  padding: 1px 8px !important;
   display: flex;
   justify-content: center;
   align-items: center;
