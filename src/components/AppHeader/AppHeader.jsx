@@ -5,11 +5,12 @@ import { AuthContext } from "../../contexts/AuthContext";
 import Headroom from "react-headroom";
 import route from "./../../routes/route.json";
 import { NavLink, useNavigate } from "react-router-dom";
+import { BsCartCheckFill } from "react-icons/bs";
 
 const AppHeader = () => {
   const { isAuth, authLogoutHandler, setLoginPage, userName } =
     useContext(AuthContext);
-    const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const [showSignUpModal, setShowSignUpModal] = useState(false);
 
@@ -19,9 +20,8 @@ const AppHeader = () => {
   };
 
   const logoutHandler = () => {
-    navigate(route.HOME)
+    navigate(route.HOME);
     authLogoutHandler();
-    
   };
   return (
     <>
@@ -35,10 +35,12 @@ const AppHeader = () => {
             <Navbar.Brand href="#home">Pre-Placement</Navbar.Brand>
             <div>
               {isAuth ? (
-                <div className="d-flex">
-                  <h6 className="text-light mt-2 me-3 mb-0">{userName}</h6>
-                  <NavLink to={`/${route.CART}`}>
-                    <Button variant="outline-secondary me-3">Cart</Button>
+                <div className="d-flex align-items-center">
+                  <h6 className="text-light username mt-2 me-3 mb-0 p-0">
+                    {userName}
+                  </h6>
+                  <NavLink to={`/${route.CART}`} className="link">
+                    <BsCartCheckFill className="fs-4 me-3" />
                   </NavLink>
                   <Button variant="outline-danger" onClick={logoutHandler}>
                     Logout

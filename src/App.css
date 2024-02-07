@@ -87,3 +87,11 @@ img {
   left: 0;
   border-radius: 0px;
 }
+
+.username{
+  font-size: 11px;
+}
+.link{
+  text-decoration: none;
+  color: #ffff;
+}
