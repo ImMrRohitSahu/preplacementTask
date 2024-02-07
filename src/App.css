@@ -36,7 +36,7 @@ input:focus {
 .product-card {
   max-width: 280px;
   min-width: 180px;
-  height: 220px;
+  height: 300px;
   background-color: rgb(255, 250, 235);
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.412);
@@ -55,12 +55,36 @@ img {
   mix-blend-mode: darken;
 }
 .title {
-  font-size: 10px !important;
+  font-size: 12px !important;
 }
 .rate {
-  font-size: 12px;
+  font-size: 14px;
 }
 .dis-price {
   font-size: 10px;
   margin-left: 5px;
+}
+
+
+.cart-title{
+  font-size: 11px;
+}
+.cart-btn{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-price{
+  font-size: 12px;
+
+}
+
+.checkout-btn{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 0px;
 }
